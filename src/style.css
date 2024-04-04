@@ -3,6 +3,23 @@ body {
   font-family: "Lora", serif;
 }
 
+header {
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid #ebe7ff;
+}
+
+footer {
+  border-top: 1px solid #ebe7ff;
+  padding: 20px 0 0 0;
+  font-size: 13px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+a {
+  color: #8f7cf0;
+  text-decoration: none;
+}
 .container {
   background: white;
   max-width: 600px;
@@ -10,4 +27,27 @@ body {
   padding: 30px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 10px;
+}
+
+.search-input {
+  background-color: #ebe7ff;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  padding: 12px 15px;
+  font-size: 15px;
+}
+
+.search-button {
+  background: #c4bbf0;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.weather-data {
+  display: flex;
+  justify-content: space-between;
 }
