@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="weather-app">
     <header>
       <form class="search-form">
         <input type="search" placeholder="Enter a city..." required class="search-input">
@@ -24,14 +24,17 @@
     <main>
       <div class="weather-data">
         <div>
-          <h1>London</h1>
-          <p>
-            Monday 17:54, clear sky <br />
-            Humidity: 62%, Wind: 4.92km/h
+          <h1 class="weather-city">London</h1>
+          <p class="weather-details">
+            Monday <strong>17:54</strong>, clear sky <br />
+            Humidity: <strong>62%</strong>, Wind: <strong>4.92km/h</strong>
           </p>
         </div>
-        <div>🌥️15°C</div>
-      </div>
+        <div class="weather-container">
+          <div class="weather-emoji">🌥️</div>
+          <div class="weather-temperature-value">15</div>
+          <div class="weather-unit">°C</div>
+        </div>
     </main>
 
     <footer>
