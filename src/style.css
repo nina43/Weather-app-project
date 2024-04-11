@@ -1,6 +1,7 @@
 body {
   background: #c4bbf0;
   font-family: "Lora", serif;
+  padding: 20px;
 }
 
 header {
@@ -55,6 +56,7 @@ main {
 .weather-data {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 10px;
 }
 
 .weather-city {
@@ -92,4 +94,22 @@ main {
   font-size: 30px;
   font-weight: 400;
   margin-top: 6px;
+}
+
+.weather-forecast {
+  text-align: left;
+  margin-top: 20px;
+  color: black;
+}
+
+.forecast-date {
+  font-size: 18px;
+  opacity: 0.6;
+}
+.forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.forecast-temperatures {
+  font-size: 14px;
 }
